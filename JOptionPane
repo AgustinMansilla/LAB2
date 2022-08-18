@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +12,8 @@ public class Main {
         int n1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce el primer numero"));
         int n2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce el segundo numero"));
         res = n1+n2;
-        System.out.println("El resultado es:" +res);
+        JOptionPane.showMessageDialog(null, "La suma es: " +res);
+        //System.out.println("El resultado es:" +res);
 
 
     }

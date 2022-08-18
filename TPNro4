@@ -1,0 +1,10 @@
+public class Main {
+
+    public static void main(String[] args) {
+	String nombre = "Agustin";
+    int edad = 21;
+    double salario = 11000;
+    boolean carnet = true;
+        System.out.println(nombre+", "+edad+", "+salario+", "+carnet);
+    }
+}

@@ -1,0 +1,7 @@
+public class Main {
+
+    public static void main(String[] args) {
+        double res = (1.2-(0.66*3.5)+0.066)/(0.066);
+        System.out.println(res);
+    }
+}

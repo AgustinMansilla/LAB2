@@ -2,15 +2,15 @@ public class Main {
 
     public static void main(String[] args) {
         //Cada uno de los valores esta en "RADIANES"
-        System.out.println(Math.cos(23.48));
-        System.out.println(Math.sin(8.23));
-        System.out.println(Math.tan(10.12));
-        System.out.println(Math.atan(1.2));
-        System.out.println(Math.atan2(2.4,5.6));
-        System.out.println(Math.exp(5.34));
-        System.out.println(Math.log(8.33));
-        System.out.println(Math.PI);
-        System.out.println(Math.E);
+        System.out.println("Valor del coseno: "+Math.cos(23.48));
+        System.out.println("Valor del seno: "+Math.sin(8.23));
+        System.out.println("Valor de la tangente: "+Math.tan(10.12));
+        System.out.println("Valor entre - π 2 y π 2: "+Math.atan(1.2));
+        System.out.println("Valor entre - π y π: "+Math.atan2(2.4,5.6));
+        System.out.println("Valor del exponencial: "+Math.exp(5.34));
+        System.out.println("Valor del logaritmo: "+Math.log(8.33));
+        System.out.println("Valor de PI: "+Math.PI);
+        System.out.println("Valor del numero e: "+Math.E);
 
     }
 }

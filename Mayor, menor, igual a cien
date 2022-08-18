@@ -1,0 +1,27 @@
+import javax.swing.*;
+import java.awt.*;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int res;
+
+        Scanner leer = new Scanner(System.in);
+        int n1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce el primer numero"));
+        int n2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce el segundo numero"));
+        res = n1+n2;
+        //JOptionPane.showMessageDialog(null, "La suma es: " +res, "KpoKpo",JOptionPane.PLAIN_MESSAGE);
+        //System.out.println("El resultado es:" +res);
+
+        if (res == 100){
+            JOptionPane.showMessageDialog(null, "La suma es "+res+" y es igual a cien");
+        }else if(res > 100){
+            JOptionPane.showMessageDialog(null,"La suma es "+res+" y es mayor a cien");
+        }else{
+            JOptionPane.showMessageDialog(null,"La suma es "+res+" y es menor a cien");
+        }
+
+    }
+}

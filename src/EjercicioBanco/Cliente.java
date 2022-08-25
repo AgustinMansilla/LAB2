@@ -1,3 +1,5 @@
+package EjercicioBanco;
+
 public class Cliente {
 
     private int nrocli;
@@ -34,5 +36,10 @@ public class Cliente {
         this.saldo = saldo;
     }
 
-
+    @Override
+    public String toString() {
+        return "Nrocli=" + nrocli +
+                " Saldo=" + saldo +
+                " Nombre='" + nombre + "'\n";
+    }
 }

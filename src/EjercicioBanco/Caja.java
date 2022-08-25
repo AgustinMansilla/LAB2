@@ -1,3 +1,5 @@
+package EjercicioBanco;
+
 public class Caja {
 
     public void extraer(Cliente titular, double monto){

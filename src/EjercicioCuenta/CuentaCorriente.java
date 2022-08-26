@@ -1,4 +1,4 @@
-package Ejercicio26_08;
+package EjercicioCuenta;
 
 public class CuentaCorriente {
 
@@ -8,9 +8,14 @@ public class CuentaCorriente {
 
     private long numeroCuenta;
 
+    double numerogen = 10000000000000000000.0 + (Math.random()*99999999999999999999.0);
+
+    long numerorandom = (long)numerogen;
+
     public CuentaCorriente(String nombreTitular,double saldo) {
         this.nombreTitular = nombreTitular;
         this.saldo = saldo;
+        this.numeroCuenta = numerorandom;
     }
 
     public double getSaldo() {
@@ -33,10 +38,6 @@ public class CuentaCorriente {
         return numeroCuenta;
     }
 
-    public void setNumeroCuenta(long numeroCuenta) {
-        this.numeroCuenta = numeroCuenta;
-    }
-
     public void transferencia(CuentaCorriente transfer, CuentaCorriente recibe, double monto){
         if(transfer.saldo >= monto){
             transfer.saldo -= monto;
@@ -46,10 +47,10 @@ public class CuentaCorriente {
 
     @Override
     public String toString() {
-        return "CuentaCorriente{" +
-                "saldo=" + saldo +
-                ", nombreTitular='" + nombreTitular + '\'' +
-                ", numeroCuenta=" + numeroCuenta +
+        return "Cuenta Corriente \n" +
+                "Nombre del Titular='" + nombreTitular +
+                ", Saldo=" + saldo +
+                ", Numero de Cuenta=" + numeroCuenta +
                 '}';
     }
 }

@@ -11,6 +11,7 @@ public class RandomNum {
         double numuser = 0;
         Scanner leer = new Scanner(System.in);
         System.out.println("Hola vamos a jugar a ver si adivinas que numero estoy pensando!");
+        System.out.println("Debes adivinar entre '100' números ajiajiaji");
         numuser = leer.nextDouble();
 
         while (numuser != elverdaderonumeroaleatorio){
@@ -23,6 +24,8 @@ public class RandomNum {
             numuser = leer.nextDouble();
 
         }
-        System.out.println("Acertaste! Correcto, solo te tomó "+cont+" intentos!");
+        cont++;
+        System.out.println("Acertaste! Solo te tomó "+cont+" intentos!");
+        System.out.println("El número era el "+elverdaderonumeroaleatorio);
     }
 }

@@ -1,4 +1,4 @@
-package EjercicioBanco;
+package EjercicioBanco25_08;
 
 public class Cliente {
 

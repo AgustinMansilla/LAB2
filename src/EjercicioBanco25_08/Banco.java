@@ -1,4 +1,4 @@
-package EjercicioBanco;
+package EjercicioBanco25_08;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class Banco {
     }
 
     public String toString(){
-        return "Clientes del Nuevo EjercicioBanco.Banco del Chaco: \n"+ Arrays.toString(clientis);
+        return "Clientes del Nuevo Banco del Chaco: \n\n"+ Arrays.toString(clientis);
     }
 
 

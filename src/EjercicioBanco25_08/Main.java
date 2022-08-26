@@ -1,4 +1,4 @@
-package EjercicioBanco;
+package EjercicioBanco25_08;
 
 public class Main {
 
@@ -17,20 +17,18 @@ public class Main {
                 new Cliente(29817,"Mansi", 500)
         };
 
-
-
         //RECORRIDO DE UNA COLECCI�N DE OBJETOS Y LISTARLOS
 
         for (Cliente cliente:clie) {
-
             caja1.extraer(cliente, 150 );
+            caja1.ingresar(cliente, 5000 );
             caja1.soli_saldo(cliente);
             System.out.println(cliente);
         }
 
         Banco bank = new Banco(clie);
 
-        System.out.println("\n\n"+bank);
+        System.out.println(bank);
 
     }
 }

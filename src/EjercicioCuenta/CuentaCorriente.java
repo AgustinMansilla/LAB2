@@ -1,14 +1,19 @@
 package EjercicioCuenta;
 
+import java.util.Random;
+
 public class CuentaCorriente {
 
     private double saldo;
+
+    Random rnd = new Random();
 
     private String nombreTitular ;
 
     private long numeroCuenta;
 
-    double numerogen = 10000000000000000000.0 + (Math.random()*99999999999999999999.0);
+
+    double numerogen = 0 + (Math.random()*9999999999999999999.0);
 
     long numerorandom = (long)numerogen;
 

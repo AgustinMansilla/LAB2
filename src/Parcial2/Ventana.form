@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Parcial2.Ventana">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+    <constraints>
+      <xy x="-131" y="20" width="1267" height="400"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <preferredSize width="600" height="50"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="618a5" binding="panelMenu" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <preferredSize width="600" height="600"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="24a11" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-626176"/>
+              <preferredSize width="600" height="40"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6eeba" class="javax.swing.JButton" binding="button1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="cbbdc" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="600" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="67168" class="javax.swing.JButton" binding="button2" default-binding="true">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="dd2d" binding="panelJuego" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <background color="-15680849"/>
+          <preferredSize width="600" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ce229" class="javax.swing.JButton" binding="button3" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
